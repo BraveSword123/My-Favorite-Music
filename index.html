@@ -9,24 +9,25 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet"> --> 
+  <script src="https://kit.fontawesome.com/ea4f5172e9.js" crossorigin="anonymous"></script>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
   <h1>My Favorite Music</h1>
   <img src="Japanese Breakfast/JB_Main.jpg" id="JB_Main" />
- <img src="Japanese Breakfast/JB_Background1.png" id="JB_Background" />
+<!-- <img src="Japanese Breakfast/JB_Background1.png" id="JB_Background" /> -->
   <div id="JB_NowPlaying">Now Playing. . .
-  <br> Kokomo IN <br>
+  <br> Kokomo, IN <br>
   Japanese Breakfast
   </div>
 <!--  <audio src="Japanese Breakfast/Kokomo,IN.mp3" autoplay loop></audio> --> 
-  <audio controls>
+  <audio hidden controls id="JB_Audio">
     <source src="Japanese Breakfast/Kokomo,IN.mp3" type="audio/mpeg">
   </audio>
   <input type="range" value ="0" id="JB_Range">
     <div class="controls">
-      <div id=Play><i class="fa-solid fa-play"></i></div>
+      <div id=Play onclick="playPause()"><i class="fa-solid fa-play" id="ctrl"></i></div>
       <div id=Back><i class="fa-solid fa-backward"></i></div>
       <div id=Up><i class="fa-solid fa-forward"></i></div>
     </div>
@@ -34,3 +35,5 @@
 </body>
 
 </html>
+
+<!-- <i class="fa-solid fa-pause"></i>
