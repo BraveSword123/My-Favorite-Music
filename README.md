@@ -1,4 +1,4 @@
-# 🎵 My Favorite Music Website
+# 🎵 My Favorite Music Website (Work In Progress) 
 
 Welcome to My Favorite Music, a personal web-based music player where I showcase songs that mean the most to me. This is a creative and aesthetic space that combines visual art with curated audio to celebrate my favorite tracks — starting with “Kokomo, IN” by Japanese Breakfast.
 
