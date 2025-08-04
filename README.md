@@ -1,51 +1,95 @@
-# 🎵 My Favorite Music Website (WIP) 
+### 🎵 My Favorite Music – Web Player
+Welcome to My Favorite Music, a personal web project that plays three of my favorite songs in a simple, visually themed music player. This project combines HTML, CSS, and JavaScript to create an immersive experience with custom styling and interactive controls.
 
-Welcome to My Favorite Music, a personal web-based music player where I showcase songs that mean the most to me. This is a creative and aesthetic space that combines visual art with curated audio to celebrate my favorite tracks — starting with “Kokomo, IN” by Japanese Breakfast.
+---
 
---- 
+## 🎶 Featured Songs
+Kokomo, IN – Japanese Breakfast
 
-## 🛠️ Current Features
+A Lots Gonna Change – Weyes Blood
 
-- 🎧 Plays “Kokomo, IN” by Japanese Breakfast (from the Jubilee album)
-- 📀 Aesthetic and immersive design featuring custom images and typography
-- ▶️ Basic media controls (Play/Pause)
-- 📊 Progress bar that tracks playback and allows seeking
-- 🎨 Fully responsive layout with artistic styling
+Hello Again – Liana Flores
 
-  ---
-
-## 📸 Screenshot
-
-![image](https://github.com/user-attachments/assets/cf2a9cf7-e94e-4c67-acd8-8dec3c90b6c2)
+Each song comes with its own visual theme, including background images and color schemes.
 
 --- 
 
-## 🚧 Work In Progress
+## 📸 Screenshots
+<img width="2962" height="1686" alt="image" src="https://github.com/user-attachments/assets/12b178d1-eec2-45f6-8966-0616f4077d81" />
+<img width="2966" height="1692" alt="image" src="https://github.com/user-attachments/assets/ffbdbe6e-18df-4725-b0c1-b9e0f5bd1950" />
+<img width="2968" height="1690" alt="image" src="https://github.com/user-attachments/assets/56fdb0ad-b6d8-4da8-bebd-8389aeec94c0" />
 
-This project is still under development. Here's what's coming next:
-- ⏮ Skip back / ⏭ Skip forward functionality
-- 🧠 Playlist logic to handle multiple songs
-- 🎵 Expanded library of my favorite songs
+---
 
-  ---
+## 🚀 Features
+🎧 Custom audio player with play/pause, forward, and backward controls
 
-## 🖼️ Aesthetic Notes
+🎨 Song-specific visuals and color palettes
 
-The visuals are inspired by the Jubilee album era — soft textures, persimmons, warm colors, and expressive photography. The UI complements the mood of the music and creates a calm, intimate atmosphere.
+📜 Scrollable seek bar for audio playback progress
+
+🔄 Doubly circular linked list for intuitive song navigation
+
+📱 Responsive layout and embedded fonts/icons via CDN
 
 --- 
 
-## 📌 Technologies Used
+## 🛠️ Tech Stack
+HTML5 for structure
 
-- HTML5 for structure
-- CSS3 for styling
-- JavaScript for interactivity
-- FontAwesome for media icons
+CSS3 for styling
 
-  ---
+JavaScript (Vanilla) for interactivity and logic
 
-## 🙌 Credits
+Font Awesome for control icons
 
-- Japanese Breakfast for the incredible song “Kokomo, IN”
-- Fonts and icon assets from Google Fonts and FontAwesome
+Google Fonts and Custom Fonts for aesthetic typography
+
+---
+
+## 📁 Folder Structure
+project-root/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── Japanese Breakfast/
+│   ├── JB_Main.jpg
+│   ├── JB_Background1.png
+│   └── Kokomo,IN.mp3
+│
+├── Weyes Blood/
+│   ├── WB_Main.jpg
+│   ├── WB_Background.jpg
+│   └── A Lot's Gonna Change 4.mp3
+│
+├── Liana Flores/
+│   ├── LF_Main.jpg
+│   ├── LF_Background.jpg
+│   └── Hello again.mp3
+
+--- 
+
+## 🧠 How It Works
+A circular doubly linked list holds song titles in order.
+
+Clicking the ⏪ or ⏩ buttons updates the headPointer and calls changeSong().
+
+changeSong() swaps images, background styles, and audio sources dynamically based on the current node.
+
+The audio player syncs with a range slider to show and control playback progress.
+
+Hover and click effects provide visual feedback on controls.
+
+--- 
+
+## 📝 Notes
+The music player is currently set to not autoplay on page load.
+
+Only one <audio> element is used for playback; its src is updated as the user switches songs.
+
+--- 
+
+
 
