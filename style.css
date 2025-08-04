@@ -26,7 +26,7 @@ body{
   background-repeat: no-repeat;
 }
 
-#JB_Main{
+#Main{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -35,7 +35,7 @@ body{
  /* height: 50%; */ 
 }
 
-h1{
+#title{
   position: absolute;
   top: 5%;
   left: 50%;
@@ -47,7 +47,7 @@ h1{
   letter-spacing: 10px;
 }
 
-#JB_NowPlaying{
+#NowPlaying{
 top: 80%; 
 left: 2%; 
 background-color: white;
@@ -60,7 +60,7 @@ border-radius: 5px;
 font-size: 20px;
 }
 
-#JB_Range{
+#Range{
   bottom: -10px; /* 30 */
   left: 490px; 
   -webkit-appearance: none; /* Hide default slider */ 
@@ -86,9 +86,10 @@ font-size: 20px;
   transition: opacity .2s; */ 
 }
 
-#JB_Range::-webkit-slider-thumb{
+#Range::-webkit-slider-thumb{
   -webkit-appearance: none; 
-  background: #14ae5c; 
+  /*background: #14ae5c; */ 
+  background: grey; 
   width: 30px; 
   height: 30px;  
   border-radius: 50%;

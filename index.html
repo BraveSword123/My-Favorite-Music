@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>My Favorite Music</title>
   <link href="https://fonts.cdnfonts.com/css/digital-numbers" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,10 +14,11 @@
 </head>
 
 <body>
-  <h1>My Favorite Music</h1>
-  <img src="Japanese Breakfast/JB_Main.jpg" id="JB_Main" />
+  <!-- Japanese Breakfast -->
+  <h1 id="title">My Favorite Music</h1>
+  <img src="Japanese Breakfast/JB_Main.jpg" id="Main"/>
 <!-- <img src="Japanese Breakfast/JB_Background1.png" id="JB_Background" /> -->
-  <div id="JB_NowPlaying">Now Playing. . .
+  <div id="NowPlaying">Now Playing. . .
   <br> Kokomo, IN <br>
   Japanese Breakfast
   </div>
@@ -25,15 +26,20 @@
   <audio hidden controls id="JB_Audio">
     <source src="Japanese Breakfast/Kokomo,IN.mp3" type="audio/mpeg">
   </audio>
-  <input type="range" value ="0" id="JB_Range">
+  <input type="range" value ="0" id="Range">
+
+  <!-- Weyes Blood --> 
+  
+<!-- General Code  --> 
     <div class="controls">
       <div id=Play onclick="playPause()"><i class="fa-solid fa-play" id="ctrl"></i></div>
-      <div id=Back><i class="fa-solid fa-backward"></i></div>
-      <div id=Up><i class="fa-solid fa-forward"></i></div>
+      <div id=Back onclick="backClick()"><i class="fa-solid fa-backward" ></i></div>
+      <div id=Up onclick="upClick()"><i class="fa-solid fa-forward" ></i></div>
     </div>
+
   <script src="script.js"></script>
 </body>
 
 </html>
 
-<!-- <i class="fa-solid fa-pause"></i>
+<!-- <i class="fa-solid fa-pause"></i> --> 
