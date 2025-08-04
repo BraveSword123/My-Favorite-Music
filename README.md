@@ -70,6 +70,7 @@ project-root/
 │   ├── LF_Main.jpg
 │   ├── LF_Background.jpg
 │   └── Hello again.mp3
+```
 
 --- 
 
