@@ -49,24 +49,43 @@ Google Fonts and Custom Fonts for aesthetic typography
 
 ## 📁 Folder Structure
 project-root/
+
 │
+
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 │
+
 ├── Japanese Breakfast/
+
 │   ├── JB_Main.jpg
+
 │   ├── JB_Background1.png
+
 │   └── Kokomo,IN.mp3
+
 │
+
 ├── Weyes Blood/
+
 │   ├── WB_Main.jpg
+
 │   ├── WB_Background.jpg
+
 │   └── A Lot's Gonna Change 4.mp3
+
 │
+
 ├── Liana Flores/
+
 │   ├── LF_Main.jpg
+
 │   ├── LF_Background.jpg
+
 │   └── Hello again.mp3
 
 --- 
