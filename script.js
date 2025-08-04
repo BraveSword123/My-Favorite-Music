@@ -84,12 +84,31 @@ if(headPointer.data === "Kokomo, IN"){
   document.getElementById("Range").style.background= "rgb(20,174,92)";// rgb colors 
   document.getElementById("Back").style.color= "rgb(20,174,92)"; 
   document.getElementById("Up").style.color= "rgb(20,174,92)"; 
-  document.getElementById("Play").style.color= "rgb(20,174,92)"; 
+  document.getElementById("Play").style.color= "rgb(20,174,92)";
   document.getElementById("Main").src = "Japanese Breakfast/JB_Main.jpg";
   document.getElementById("JB_Audio").src = "Japanese Breakfast/Kokomo,IN.mp3";
   document.getElementById("NowPlaying").innerHTML =  "Now Playing. . .<br> Kokomo, IN <br>Japanese Breakfast"; 
   document.body.style.backgroundImage = "url('Japanese Breakfast/JB_Background1.png')"
    document.getElementById("NowPlaying").style.fontSize = "20px";
+  document.getElementById("Back").onmouseover = function() {
+    document.getElementById("Back").style.color = "rgb(128,255,187)";
+  }
+  document.getElementById("Up").onmouseover = function() {
+    document.getElementById("Up").style.color = "rgb(128,255,187)";
+  }
+  document.getElementById("Play").onmouseover = function() {
+    document.getElementById("Play").style.color = "rgb(128,255,187)";
+  }
+
+  document.getElementById("Back").onmouseout = function() {
+    document.getElementById("Back").style.color = "rgb(20,174,92)";
+  }
+  document.getElementById("Up").onmouseout = function() {
+    document.getElementById("Up").style.color = "rgb(20,174,92)";
+  }
+  document.getElementById("Play").onmouseout= function() {
+    document.getElementById("Play").style.color = "rgb(20,174,92)";
+  }
 }
 else if(headPointer.data === "A Lots Gonna Change"){
   document.getElementById("title").style.color= "rgb(89,175,255)";
@@ -103,6 +122,26 @@ else if(headPointer.data === "A Lots Gonna Change"){
   document.getElementById("NowPlaying").innerHTML =  "Now Playing. . .<br>A Lots Gonna Change<br>Weyes Blood"; 
   document.body.style.backgroundImage = "url('Weyes Blood/WB_Background.jpg')"; 
   document.getElementById("NowPlaying").style.fontSize = "19px"; 
+
+  document.getElementById("Back").onmouseover = function() {
+    document.getElementById("Back").style.color = "rgb(218, 218, 247)";
+  }
+  document.getElementById("Up").onmouseover = function() {
+    document.getElementById("Up").style.color = "rgb(218, 218, 247)";
+  }
+  document.getElementById("Play").onmouseover = function() {
+    document.getElementById("Play").style.color = "rgb(218, 218, 247)";
+  }
+
+  document.getElementById("Back").onmouseout = function() {
+    document.getElementById("Back").style.color = "white";
+  }
+  document.getElementById("Up").onmouseout = function() {
+    document.getElementById("Up").style.color = "white";
+  }
+  document.getElementById("Play").onmouseout= function() {
+    document.getElementById("Play").style.color = "white";
+  }
 }
   else if(headPointer.data === "Hello Again"){
     document.getElementById("title").style.color= "white"; // May change this later 
@@ -110,15 +149,39 @@ else if(headPointer.data === "A Lots Gonna Change"){
     document.getElementById("Range").style.background= "rgb(135,31,66)";
     document.getElementById("Back").style.color= "rgb(135,31,66)";
     document.getElementById("Up").style.color= "rgb(135,31,66)";
-    document.getElementById("Play").style.color= "rgb(135,31,66)";
+    document.getElementById("Play").style.color= "rgb(135,31,66)"; 
     document.getElementById("Main").src = "Liana Flores/LF_Main.jpg";
     document.getElementById("JB_Audio").src = "Liana Flores/Hello again.mp3";
     document.getElementById("NowPlaying").innerHTML =  "Now Playing. . .<br>Hello Again<br>Liana Flores";
     document.body.style.backgroundImage = "url('Liana Flores/LF_Background.jpg')";
     document.getElementById("NowPlaying").style.fontSize = "20px";
-    
+
+    document.getElementById("Back").onmouseover = function() {
+      document.getElementById("Back").style.color = "rgb(237, 69, 125)";
+    }
+    document.getElementById("Up").onmouseover = function() {
+      document.getElementById("Up").style.color = "rgb(237, 69, 125)";
+    }
+    document.getElementById("Play").onmouseover = function() {
+      document.getElementById("Play").style.color = "rgb(237, 69, 125)";
+    }
+
+    document.getElementById("Back").onmouseout = function() {
+      document.getElementById("Back").style.color = "rgb(135,31,66)";
+    }
+    document.getElementById("Up").onmouseout = function() {
+      document.getElementById("Up").style.color = "rgb(135,31,66)";
+    }
+    document.getElementById("Play").onmouseout= function() {
+      document.getElementById("Play").style.color = "rgb(135,31,66)";
+    }
   }
 }
+
+/* Need to change pause button to play button when song ends 
+
+Add hovers to buttons
+*/
 
 
 
