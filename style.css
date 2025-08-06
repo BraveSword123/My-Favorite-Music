@@ -45,6 +45,7 @@ body{
   font-family: Forum; /*Forum*/ 
   font-weight: 200; 
   letter-spacing: 10px;
+  white-space: nowrap;
 }
 
 #NowPlaying{
@@ -64,7 +65,7 @@ font-size: 20px;
   bottom: -10px; /* 30 */
   left: 490px; 
   -webkit-appearance: none; /* Hide default slider */ 
-  width: 500px; 
+  width: 500px;
   height: 6px; 
   background: #14ae5c; /*rgba(76, 128, 82, 1)*/ 
   position: absolute;
@@ -98,6 +99,7 @@ font-size: 20px;
   cursor: pointer; 
 }
 
+
 #Play{
   z-index: 2;
   position: absolute;
@@ -112,12 +114,12 @@ font-size: 20px;
   color: #80ffbb;
 }
 
-#Play:active{
+/*#Play:active{
   color: #ccffe4;
-}
+} */ 
 
 
-#Back{
+ #Back{
   z-index: 2;
   position: absolute;
   bottom: 50px;
@@ -131,9 +133,9 @@ font-size: 20px;
   color: #80ffbb;
 }
 
-#Back:active{
+/* #Back:active{
   color: #ccffe4;
-}
+} */ 
 
 #Up{
   z-index: 2;
@@ -149,6 +151,56 @@ font-size: 20px;
   color: #80ffbb;
 }
 
-#Up:active{
+/*#Up:active{
   color: #ccffe4;
+} */ 
+
+/*@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+} */ 
+
+@media (max-width: 1249px){
+  #title{
+    margin: 0px; 
+    font-size: 5.5vw; 
+  }
+  #Range{
+  /*  width: 300px;*/ 
+  /*  left: 300px; */ 
+    width: 40vw; 
+    left: 30%; 
+  } 
+  #Play{
+    font-size: 50px;
+  /*  left: 450px; */ 
+    left: 50%; 
+  }
+  #Back{
+    font-size: 50px;
+   /* left: 300px; */ 
+    left: 30%; 
+  }
+  #Up{
+    font-size: 50px;
+  /*  left: 600px; */ 
+    left: 70%; 
+  }
+ #Main{
+  top: 40%; 
+ /*    width: 70vw; */ 
+   width: 490px; 
+  }
+  #NowPlaying{ 
+   top: 70%; 
+  /*  left: 36%; */ 
+    left: 30%; 
+  /*  height: 80px; /*Not Centered Still*/
+    width: 43vw;
+    height: 105px; 
+  }
+/* body{
+display: flex; 
+} */ 
 }
