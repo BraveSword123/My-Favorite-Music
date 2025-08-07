@@ -44,6 +44,9 @@ Each song comes with its own visual theme, including background images and color
 This project includes responsive design for screens smaller than 1249px using CSS @media queries. Elements like the title, song range slider, buttons, and the "Now Playing" box adjust in size and position to better fit smaller screens.
 
 # Smaller Screen Screenshots: 
+<img width="1614" height="1732" alt="image" src="https://github.com/user-attachments/assets/3a6ad3ec-24e8-43b8-8480-97b32d6999ee" />
+<img width="1624" height="1718" alt="image" src="https://github.com/user-attachments/assets/fe487db3-3896-4aa7-a034-1c704109a0ca" />
+<img width="1618" height="1716" alt="image" src="https://github.com/user-attachments/assets/9adc4151-1b67-4d32-a1e2-c3ac220694c7" />
 <img width="1612" height="1718" alt="image" src="https://github.com/user-attachments/assets/c0c9683d-bee5-41d4-a289-48bf1f0b2f03" />
 <img width="1620" height="1716" alt="image" src="https://github.com/user-attachments/assets/09e6e5f8-6868-4761-a6d2-9a35afd11adb" />
 
