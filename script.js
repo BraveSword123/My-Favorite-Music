@@ -227,11 +227,10 @@ else if(headPointer.data === "A Lots Gonna Change"){
       document.getElementById("Play").style.color = "white";
     }
   }
-  // Stuff 
   else if (headPointer.data === "Shilo"){
     document.getElementById("title").style.color= "rgb(216,248,255)";
     document.getElementById("NowPlaying").style.color= "rgb(9, 137,166)";
-    document.getElementById("Range").style.background= "rgb(216,248,255)"; 
+    document.getElementById("Range").style.background= "grey"; // rgb(9, 137,166)
     document.getElementById("Back").style.color= "rgb(216,248,255)";
     document.getElementById("Up").style.color= "rgb(216,248,255)";
     document.getElementById("Play").style.color= "rgb(216,248,255)";
@@ -253,16 +252,15 @@ else if(headPointer.data === "A Lots Gonna Change"){
     }
 
     document.getElementById("Back").onmouseout = function() {
-      document.getElementById("Back").style.color = "rgb(216,248,255)";
+      document.getElementById("Back").style.color = "white"; //rgb(216,248,255)
     }
     document.getElementById("Up").onmouseout = function() {
-      document.getElementById("Up").style.color = "rgb(216,248,255)";
+      document.getElementById("Up").style.color = "white"; //rgb(216,248,255)
     }
     document.getElementById("Play").onmouseout= function() {
-      document.getElementById("Play").style.color = "rgb(216,248,255)";
+      document.getElementById("Play").style.color = "white"; // rgb(216,248,255)
     }
   }
-  // Stuff
 }
 
 /* 
@@ -292,6 +290,7 @@ The Light Before We Land - The Delgados
 Counter of how many times song has been played??? 
 Keep song from playing automatically when page opens
 Fade in for each song 
+When you turn off sound on bluetooth, the pause button becomes a play button 
 */
 
 

@@ -1,6 +1,7 @@
 html {
   height: 100%;
   width: 100%;
+  overflow: hidden; 
 }
 
 /* So Happy I found this!!!*/ 
@@ -199,6 +200,7 @@ font-size: 20px;
   /*  height: 80px; /*Not Centered Still*/
     width: 43vw;
     height: 105px; 
+    text-align: center;
   }
 /* body{
 display: flex; 
