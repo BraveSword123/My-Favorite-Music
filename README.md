@@ -25,7 +25,6 @@ Each song comes with its own visual theme, including background images and color
 <img width="3000" height="1720" alt="image" src="https://github.com/user-attachments/assets/74838656-6418-4061-ac94-2d1c1889cdfe" />
 <img width="3000" height="1720" alt="image" src="https://github.com/user-attachments/assets/7de8e567-105c-4579-aa1b-91d9bc9a423d" />
 
-
 ---
 
 ## 🚀 Features
