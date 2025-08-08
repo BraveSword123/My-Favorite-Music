@@ -162,6 +162,18 @@ font-size: 20px;
   }
 } */ 
 
+#Repeat{
+  position: absolute;
+ /*  bottom: 50px; */ 
+  bottom: 103px; 
+   color: rgba(76, 128, 82, 1); /*14ae5c*/ 
+  /* color: black; */ 
+ /*  font-size: 50px; */ 
+  font-size: 30px; 
+  right: 457px;
+  cursor:pointer;
+}
+
 @media (max-width: 1249px){
   #title{
     margin: 0px; 
