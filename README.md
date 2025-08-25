@@ -19,11 +19,11 @@ Each song comes with its own visual theme, including background images and color
 --- 
 
 ## 📸 Screenshots
-<img width="2962" height="1686" alt="image" src="https://github.com/user-attachments/assets/12b178d1-eec2-45f6-8966-0616f4077d81" />
-<img width="2966" height="1692" alt="image" src="https://github.com/user-attachments/assets/ffbdbe6e-18df-4725-b0c1-b9e0f5bd1950" />
-<img width="2968" height="1690" alt="image" src="https://github.com/user-attachments/assets/56fdb0ad-b6d8-4da8-bebd-8389aeec94c0" />
-<img width="3000" height="1720" alt="image" src="https://github.com/user-attachments/assets/74838656-6418-4061-ac94-2d1c1889cdfe" />
-<img width="3000" height="1720" alt="image" src="https://github.com/user-attachments/assets/7de8e567-105c-4579-aa1b-91d9bc9a423d" />
+<img width="2998" height="1718" alt="image" src="https://github.com/user-attachments/assets/bdb05c63-06ac-4d19-a78b-a951abd99518" />
+<img width="3000" height="1720" alt="image" src="https://github.com/user-attachments/assets/c1fc06ca-6037-4ea1-aec2-a7e9a4454ff9" />
+<img width="3000" height="1720" alt="image" src="https://github.com/user-attachments/assets/b521cdfd-0bb7-4297-91c2-ca7ed4ea7c30" />
+<img width="3000" height="1718" alt="image" src="https://github.com/user-attachments/assets/901eb93a-d204-4683-8aaa-1bba2efb5d97" />
+<img width="3000" height="1722" alt="image" src="https://github.com/user-attachments/assets/554f8fed-4a08-4d03-a219-2a33d19939be" />
 
 ---
 
@@ -44,11 +44,11 @@ Each song comes with its own visual theme, including background images and color
 This project includes responsive design for screens smaller than 1249px using CSS @media queries. Elements like the title, song range slider, buttons, and the "Now Playing" box adjust in size and position to better fit smaller screens.
 
 # Smaller Screen Screenshots: 
-<img width="1614" height="1732" alt="image" src="https://github.com/user-attachments/assets/3a6ad3ec-24e8-43b8-8480-97b32d6999ee" />
-<img width="1624" height="1718" alt="image" src="https://github.com/user-attachments/assets/fe487db3-3896-4aa7-a034-1c704109a0ca" />
-<img width="1618" height="1716" alt="image" src="https://github.com/user-attachments/assets/9adc4151-1b67-4d32-a1e2-c3ac220694c7" />
-<img width="1612" height="1718" alt="image" src="https://github.com/user-attachments/assets/c0c9683d-bee5-41d4-a289-48bf1f0b2f03" />
-<img width="1620" height="1716" alt="image" src="https://github.com/user-attachments/assets/09e6e5f8-6868-4761-a6d2-9a35afd11adb" />
+<img width="1700" height="1722" alt="image" src="https://github.com/user-attachments/assets/b7cb862c-e974-4d46-8313-af32f9687548" />
+<img width="1694" height="1726" alt="image" src="https://github.com/user-attachments/assets/48a94488-2ead-454e-ac81-c723bc91ad85" />
+<img width="1700" height="1718" alt="image" src="https://github.com/user-attachments/assets/7e9e7242-e3c5-4092-a7e7-1aecefbb6219" />
+<img width="1700" height="1720" alt="image" src="https://github.com/user-attachments/assets/e9741d39-2f51-4013-95a7-38f6814b876e" />
+<img width="1688" height="1722" alt="image" src="https://github.com/user-attachments/assets/018b5ba5-e070-4755-8e7e-f7a650b0897e" />
 
 ---
 
