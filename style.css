@@ -4,9 +4,7 @@ html {
   overflow: hidden; 
 }
 
-/* So Happy I found this!!!*/ 
 body{
- /* margin: 0; Remove End Space*/
   background-image: url('Japanese Breakfast/JB_Background1.png');
   background-size: cover;
   background-position: center;
@@ -18,8 +16,6 @@ body{
 }
 
 #JB_Background{
-  /*width: 100%;
-  height: 100% */ 
   background-size: cover;
   background-position: center;
   background-position-y: center; 
@@ -33,7 +29,6 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);  /* How to center an element */ 
   width: 550px;
- /* height: 50%; */ 
 }
 
 #title{
@@ -43,7 +38,7 @@ body{
   transform: translate(-50%, -50%);
   font-size: 50px;
   color: rgba(76, 128, 82, 1);
-  font-family: Forum; /*Forum*/ 
+  font-family: Forum; 
   font-weight: 200; 
   letter-spacing: 10px;
   white-space: nowrap;
@@ -57,40 +52,28 @@ height: 100px;
 width: 300px; 
 position: absolute;
 font-family: Digital Numbers;
-color: rgba(76, 128, 82, 1); /* Green */
+color: rgba(76, 128, 82, 1); 
 border-radius: 5px;
 font-size: 20px;
 }
 
 #Range{
-  bottom: -10px; /* 30 */
+  bottom: -10px; 
   left: 490px; 
-  -webkit-appearance: none; /* Hide default slider */ 
+  -webkit-appearance: none; 
   width: 500px;
   height: 6px; 
-  background: #14ae5c; /*rgba(76, 128, 82, 1)*/ 
+  background: #14ae5c; 
   position: absolute;
   cursor: pointer;
   margin: 40px 0; 
   z-index: 2;
   bottom: 80px;
   border-radius: 5px;
-  /*top: 90%;
-  left: 50%;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  transform: translate(-50%, -50%);
-  width: 50%;
-  height: 20px;
-  border-radius: 5px;
-  border: 1px solid black;
-  outline: none;
-  opacity: 0.7;
-  transition: opacity .2s; */ 
 }
 
 #Range::-webkit-slider-thumb{
   -webkit-appearance: none; 
-  /*background: #14ae5c; */ 
   background: grey; 
   width: 30px; 
   height: 30px;  
@@ -109,16 +92,12 @@ font-size: 20px;
   font-size: 50px;
    left: 730px; 
   cursor:pointer; 
+  transition: color .15s;
 }
 
 #Play:hover{
   color: #80ffbb;
 }
-
-/*#Play:active{
-  color: #ccffe4;
-} */ 
-
 
  #Back{
   z-index: 2;
@@ -128,15 +107,13 @@ font-size: 20px;
   font-size: 50px;
   left: 540px;
   cursor:pointer;
+   transition: color .15s;
 }
 
 #Back:hover{
   color: #80ffbb;
 }
 
-/* #Back:active{
-  color: #ccffe4;
-} */ 
 
 #Up{
   z-index: 2;
@@ -146,75 +123,68 @@ font-size: 20px;
   font-size: 50px;
   left: 900px;
   cursor:pointer;
+  transition: color .15s;
 }
 
 #Up:hover{
   color: #80ffbb;
 }
 
-/*#Up:active{
-  color: #ccffe4;
-} */ 
-
-/*@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-} */ 
-
 #Repeat{
   position: absolute;
- /*  bottom: 50px; */ 
   bottom: 103px; 
-   color: rgba(76, 128, 82, 1); /*14ae5c*/ 
-  /* color: black; */ 
- /*  font-size: 50px; */ 
   font-size: 30px; 
   right: 457px;
   cursor:pointer;
+  --repeat-off: rgb(76,128,82);
+  --repeat-on:  rgb(128,255,187);
+  --repeat-hover: var(--repeat-on);
+  color: var(--repeat-off);
+  transition: color .15s;
 }
 
-@media (max-width: 1249px){
+#Repeat[aria-pressed="true"] {
+  color: var(--repeat-on); 
+}
+
+#Repeat:hover { 
+  color: var(--repeat-hover); 
+}
+
+@media (max-width: 1251px){  /*1249px*/ 
   #title{
     margin: 0px; 
     font-size: 5.5vw; 
   }
   #Range{
-  /*  width: 300px;*/ 
-  /*  left: 300px; */ 
     width: 40vw; 
     left: 30%; 
   } 
   #Play{
     font-size: 50px;
-  /*  left: 450px; */ 
     left: 50%; 
   }
   #Back{
-    font-size: 50px;
-   /* left: 300px; */ 
+    font-size: 50px; 
     left: 30%; 
   }
   #Up{
     font-size: 50px;
-  /*  left: 600px; */ 
     left: 70%; 
   }
  #Main{
   top: 40%; 
- /*    width: 70vw; */ 
    width: 490px; 
   }
   #NowPlaying{ 
    top: 70%; 
-  /*  left: 36%; */ 
-    left: 30%; 
-  /*  height: 80px; /*Not Centered Still*/
-    width: 43vw;
-    height: 105px; 
-    text-align: center;
+   left: 30%; 
+   width: 43vw;
+   height: 105px; 
+   text-align: center;
   }
-/* body{
-display: flex; 
-} */ 
+  #Repeat{
+    bottom: 103px; 
+    right: 23%;
+  }
 }

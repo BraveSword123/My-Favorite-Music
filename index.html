@@ -8,7 +8,6 @@
   <link href="https://fonts.cdnfonts.com/css/digital-numbers" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet"> --> 
   <script src="https://kit.fontawesome.com/ea4f5172e9.js" crossorigin="anonymous"></script>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -16,18 +15,16 @@
 <body>
   <h1 id="title">My Favorite Music</h1>
   <img src="Japanese Breakfast/JB_Main.jpg" id="Main"/>
-<!-- <img src="Japanese Breakfast/JB_Background1.png" id="JB_Background" /> -->
   <div id="NowPlaying">Now Playing. . .
   <br> Kokomo, IN <br>
   Japanese Breakfast
   </div>
-<!--  <audio src="Japanese Breakfast/Kokomo,IN.mp3" autoplay loop></audio> --> 
   <audio hidden controls id="JB_Audio">
     <source src="Japanese Breakfast/Kokomo,IN.mp3" type="audio/mpeg">
   </audio>
   <input type="range" value ="0" id="Range">
 
-  <div id="Repeat" onclick="repeatClick()"><i class="fa-solid fa-repeat"></i></div>
+  <div id="Repeat" onclick="repeatClick()" aria-pressed="false"><i class="fa-solid fa-repeat"></i></div>
   
 <!-- General Code  --> 
     <div class="controls">
@@ -38,7 +35,6 @@
 
   <script src="script.js"></script>
 </body>
-
 </html>
 
-<!-- <i class="fa-solid fa-pause"></i> --> 
+
