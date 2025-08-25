@@ -38,6 +38,8 @@ Each song comes with its own visual theme, including background images and color
 
 📱 Responsive layout and embedded fonts/icons via CDN
 
+🎶 Includes a repeat button that allows users to play the song on loop
+
 --- 
 
 ## 📱 Responsive Design – @media Query
