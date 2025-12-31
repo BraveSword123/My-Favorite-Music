@@ -1,7 +1,7 @@
 let progress = document.getElementById("Range");
 let song = document.querySelector("audio");
 let crlIcon = document.getElementById("ctrl"); 
-let clickCount = 0; // Remove This Later
+// let clickCount = 0; // Remove This Later
 let isRepeatOn = false;
 const repeatBtn = document.getElementById("Repeat"); 
 
