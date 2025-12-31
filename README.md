@@ -43,7 +43,7 @@ Each song comes with its own visual theme, including background images and color
 --- 
 
 ## 📱 Responsive Design – @media Query
-This project includes responsive design for screens smaller than 1249px using CSS @media queries. Elements like the title, song range slider, buttons, and the "Now Playing" box adjust in size and position to better fit smaller screens.
+This project includes responsive design for screens smaller than 1249px using CSS @media queries. Elements like the title, song range slider, buttons, and the "Now Playing" box adjust in size and position to better fit smaller screens on desktop however the project is currently not mobile-friendly. 
 
 # Smaller Screen Screenshots: 
 <img width="1700" height="1722" alt="image" src="https://github.com/user-attachments/assets/b7cb862c-e974-4d46-8313-af32f9687548" />
