@@ -116,13 +116,17 @@ function upClick(){
 
 function changeSong(){
 if(headPointer.data === "Kokomo, IN"){
+  document.getElementById("resizeMessage").style.backgroundColor = "rgb(255, 255, 196)"; 
+  document.getElementById("resizeMessage").style.borderColor = "rgb(213, 117, 41)"; 
+  document.getElementById("resizeMessage").style.color = "rgb(131, 116, 2)"; 
   document.getElementById("title").style.color= "rgba(76, 128, 82, 1)";
   document.getElementById("NowPlaying").style.color= "rgba(76, 128, 82, 1)";
-  document.getElementById("Range").style.background= "rgb(20,174,92)";// rgb colors 
+  document.getElementById("Range").style.background= "rgb(20,174,92)";
   document.getElementById("Back").style.color= "rgb(20,174,92)"; 
   document.getElementById("Up").style.color= "rgb(20,174,92)"; 
   document.getElementById("Play").style.color= "rgb(20,174,92)";
   document.getElementById("Main").src = "Japanese Breakfast/JB_Main.jpg";
+  document.getElementById("Main").alt = "Album Cover for Japanese Breakfast's Jubilee ";
   document.getElementById("JB_Audio").src = "Japanese Breakfast/Kokomo,IN.mp3";
   document.getElementById("NowPlaying").innerHTML =  "Now Playing. . .<br> Kokomo, IN <br>Japanese Breakfast"; 
   document.body.style.backgroundImage = "url('Japanese Breakfast/JB_Background1.png')";
@@ -154,6 +158,9 @@ if(headPointer.data === "Kokomo, IN"){
   }
   
 else if(headPointer.data === "A Lots Gonna Change"){
+  document.getElementById("resizeMessage").style.backgroundColor = "rgb(231, 243, 255)"; 
+  document.getElementById("resizeMessage").style.borderColor = "rgb(169, 212, 253)"; 
+  document.getElementById("resizeMessage").style.color = "rgb(2, 28, 132)"; 
   document.getElementById("title").style.color= "rgb(89,175,255)";
   document.getElementById("NowPlaying").style.color= "rgb(4,56,105)";
   document.getElementById("Range").style.background= "rgb(89,175,255)"; 
@@ -161,6 +168,7 @@ else if(headPointer.data === "A Lots Gonna Change"){
   document.getElementById("Up").style.color= "white"; 
   document.getElementById("Play").style.color= "white"; 
   document.getElementById("Main").src = "Weyes Blood/WB_Main.jpg";
+  document.getElementById("Main").alt = "Album Cover for Weyes Blood's Titanic Rising";
   document.getElementById("JB_Audio").src = "Weyes Blood/A Lot's Gonna Change 4.mp3";
   document.getElementById("NowPlaying").innerHTML =  "Now Playing. . .<br>A Lots Gonna Change<br>Weyes Blood"; 
   document.body.style.backgroundImage = "url('Weyes Blood/WB_Background.jpg')"; 
@@ -192,14 +200,17 @@ else if(headPointer.data === "A Lots Gonna Change"){
 }
   
   else if(headPointer.data === "Hello Again"){
-    document.getElementById("title").style.color= "white"; // May change this later 
+    document.getElementById("resizeMessage").style.backgroundColor = "rgb(225, 187, 174)"; 
+    document.getElementById("resizeMessage").style.borderColor = "rgb(137, 25, 61)"; 
+    document.getElementById("resizeMessage").style.color = "rgb(137, 25, 61)";  
+    document.getElementById("title").style.color= "white"; 
     document.getElementById("NowPlaying").style.color= "rgb(135,31,66)";
     document.getElementById("Range").style.background= "rgb(135,31,66)";
     document.getElementById("Back").style.color= "rgb(135,31,66)";
     document.getElementById("Up").style.color= "rgb(135,31,66)";
     document.getElementById("Play").style.color= "rgb(135,31,66)"; 
-//    document.getElementById("Repeat").style.color = "rgb(135,31,66)";
     document.getElementById("Main").src = "Liana Flores/LF_Main.jpg";
+    document.getElementById("Main").alt = "Album Cover for Liana Flores' Flower of the Soul";
     document.getElementById("JB_Audio").src = "Liana Flores/Hello again.mp3";
     document.getElementById("NowPlaying").innerHTML =  "Now Playing. . .<br>Hello Again<br>Liana Flores";
     document.body.style.backgroundImage = "url('Liana Flores/LF_Background.jpg')";
@@ -231,6 +242,9 @@ else if(headPointer.data === "A Lots Gonna Change"){
   }
     
   else if (headPointer.data === "Men in Bars"){
+     document.getElementById("resizeMessage").style.backgroundColor = "white"; 
+      document.getElementById("resizeMessage").style.borderColor = "rgb(216, 200, 210)"; 
+      document.getElementById("resizeMessage").style.color = "rgb(122, 3, 63)"; 
     document.getElementById("title").style.color= "white";
     document.getElementById("NowPlaying").style.color= "black";
     document.getElementById("Range").style.background= "grey"; 
@@ -238,6 +252,7 @@ else if(headPointer.data === "A Lots Gonna Change"){
     document.getElementById("Up").style.color= "white";
     document.getElementById("Play").style.color= "white";
     document.getElementById("Main").src = "Japanese Breakfast 2/MIB_Main.jpg";
+    document.getElementById("Main").alt = "Album Cover for Japanese Breakfast's For Melancholy Brunettes and Sad Women";
     document.getElementById("JB_Audio").src = "Japanese Breakfast 2/Men in Bars 4.mp3";
     document.getElementById("NowPlaying").innerHTML =  "Now Playing. . .<br>Men In Bars<br>Japanese Breakfast";
     document.body.style.backgroundImage = "url('Japanese Breakfast 2/MIB_Background.png')";
@@ -269,6 +284,9 @@ else if(headPointer.data === "A Lots Gonna Change"){
     }
     
   else if (headPointer.data === "Shilo"){
+    document.getElementById("resizeMessage").style.backgroundColor = "white"; 
+    document.getElementById("resizeMessage").style.borderColor = "rgb(177, 241, 255)"; 
+    document.getElementById("resizeMessage").style.color = "rgb(25, 102, 137)";  
     document.getElementById("title").style.color= "rgb(216,248,255)";
     document.getElementById("NowPlaying").style.color= "rgb(9, 137,166)";
     document.getElementById("Range").style.background= "white"; // rgb(9, 137,166)
@@ -276,6 +294,7 @@ else if(headPointer.data === "A Lots Gonna Change"){
     document.getElementById("Up").style.color= "rgb(216,248,255)";
     document.getElementById("Play").style.color= "rgb(216,248,255)";
     document.getElementById("Main").src = "Weyes Blood 2/GAF_Main.jpg";
+    document.getElementById("Main").alt = "Album Cover for Good American Family (Offical Soundtrack)";
     document.getElementById("JB_Audio").src = "Weyes Blood 2/Shilo.mp3";
     document.getElementById("NowPlaying").innerHTML =  "Now Playing. . .<br>Shilo<br>Weyes Blood";
     document.body.style.backgroundImage = "url('Weyes Blood 2/GAF_Background.png')";

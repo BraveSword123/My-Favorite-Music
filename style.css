@@ -15,6 +15,22 @@ body{
   width: 100%;
 }
 
+#resizeMessage{
+  height: 215px; 
+  width: 350px; 
+  background-color: #FFFFC4;
+  font-size: 20px; 
+  text-align: center;
+  border: 7px solid #D57529; 
+  color: #837402; 
+  font-family: Forum; 
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: auto;
+  display: none; 
+}
+
 #JB_Background{
   background-size: cover;
   background-position: center;
@@ -226,3 +242,35 @@ font-size: 20px;
     right: 23%;
   }
 }
+
+
+@media (max-height: 721px), (max-width: 498px){
+  #title{
+    display: none; 
+  }
+  #Range{
+    display: none;  
+  } 
+  #Play{
+    display: none; 
+  }
+  #Back{
+    display: none; 
+  }
+  #Up{
+    display: none;  
+  }
+  #Main{
+    display: none;   
+  }
+  #NowPlaying{ 
+    display: none; 
+  }
+  #Repeat{
+    display: none; 
+  }
+  #resizeMessage{
+    display: block; 
+  }
+}
+
