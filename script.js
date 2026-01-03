@@ -117,8 +117,17 @@ function upClick(){
 function changeSong(){
 if(headPointer.data === "Kokomo, IN"){
   document.getElementById("resizeMessage").style.backgroundColor = "rgb(255, 255, 196)"; 
+  document.getElementById("reSizeMessageButton").style.backgroundColor = "rgb(255, 255, 196)"; 
+  document.getElementById("reSizeMessageButton").style.borderColor = "rgb(213, 117, 41)";
   document.getElementById("resizeMessage").style.borderColor = "rgb(213, 117, 41)"; 
   document.getElementById("resizeMessage").style.color = "rgb(131, 116, 2)"; 
+  document.getElementById("reSizeMessageButton").style.color = "rgb(131, 116, 2)";
+  document.getElementById("reSizeMessageButton").onmouseover = function() {
+    document.getElementById("reSizeMessageButton").style.backgroundColor = "white";
+  }
+  document.getElementById("reSizeMessageButton").onmouseout = function() {
+    document.getElementById("reSizeMessageButton").style.backgroundColor = "rgb(255, 255, 196)"; 
+  }
   document.getElementById("title").style.color= "rgba(76, 128, 82, 1)";
   document.getElementById("NowPlaying").style.color= "rgba(76, 128, 82, 1)";
   document.getElementById("Range").style.background= "rgb(20,174,92)";
@@ -159,8 +168,17 @@ if(headPointer.data === "Kokomo, IN"){
   
 else if(headPointer.data === "A Lots Gonna Change"){
   document.getElementById("resizeMessage").style.backgroundColor = "rgb(231, 243, 255)"; 
+  document.getElementById("reSizeMessageButton").style.backgroundColor = "rgb(231, 243, 255)"; 
   document.getElementById("resizeMessage").style.borderColor = "rgb(169, 212, 253)"; 
+  document.getElementById("reSizeMessageButton").style.borderColor = "rgb(169, 212, 253)"; 
   document.getElementById("resizeMessage").style.color = "rgb(2, 28, 132)"; 
+  document.getElementById("reSizeMessageButton").style.color = "rgb(2, 28, 132)";
+  document.getElementById("reSizeMessageButton").onmouseover = function() {
+    document.getElementById("reSizeMessageButton").style.backgroundColor = "white";
+  }
+  document.getElementById("reSizeMessageButton").onmouseout = function() {
+    document.getElementById("reSizeMessageButton").style.backgroundColor = "rgb(231, 243, 255)"; 
+  }
   document.getElementById("title").style.color= "rgb(89,175,255)";
   document.getElementById("NowPlaying").style.color= "rgb(4,56,105)";
   document.getElementById("Range").style.background= "rgb(89,175,255)"; 
@@ -201,8 +219,17 @@ else if(headPointer.data === "A Lots Gonna Change"){
   
   else if(headPointer.data === "Hello Again"){
     document.getElementById("resizeMessage").style.backgroundColor = "rgb(225, 187, 174)"; 
+    document.getElementById("reSizeMessageButton").style.backgroundColor = "rgb(225, 187, 174)";
     document.getElementById("resizeMessage").style.borderColor = "rgb(137, 25, 61)"; 
+    document.getElementById("reSizeMessageButton").style.borderColor = "rgb(137, 25, 61)";
     document.getElementById("resizeMessage").style.color = "rgb(137, 25, 61)";  
+    document.getElementById("reSizeMessageButton").style.color = "rgb(137, 25, 61)";
+    document.getElementById("reSizeMessageButton").onmouseover = function() {
+      document.getElementById("reSizeMessageButton").style.backgroundColor = "white";
+    }
+    document.getElementById("reSizeMessageButton").onmouseout = function() {
+      document.getElementById("reSizeMessageButton").style.backgroundColor = "rgb(225, 187, 174)"; 
+    }
     document.getElementById("title").style.color= "white"; 
     document.getElementById("NowPlaying").style.color= "rgb(135,31,66)";
     document.getElementById("Range").style.background= "rgb(135,31,66)";
@@ -243,8 +270,17 @@ else if(headPointer.data === "A Lots Gonna Change"){
     
   else if (headPointer.data === "Men in Bars"){
      document.getElementById("resizeMessage").style.backgroundColor = "white"; 
+     document.getElementById("reSizeMessageButton").style.backgroundColor = "white";
       document.getElementById("resizeMessage").style.borderColor = "rgb(216, 200, 210)"; 
+      document.getElementById("reSizeMessageButton").style.borderColor = "rgb(216, 200, 210)";
       document.getElementById("resizeMessage").style.color = "rgb(122, 3, 63)"; 
+      document.getElementById("reSizeMessageButton").style.color = "rgb(122, 3, 63)";
+    document.getElementById("reSizeMessageButton").onmouseover = function() {
+      document.getElementById("reSizeMessageButton").style.backgroundColor = "rgb(216, 200, 210)";
+    }
+    document.getElementById("reSizeMessageButton").onmouseout = function() {
+      document.getElementById("reSizeMessageButton").style.backgroundColor = "white"; 
+    }
     document.getElementById("title").style.color= "white";
     document.getElementById("NowPlaying").style.color= "black";
     document.getElementById("Range").style.background= "grey"; 
@@ -285,11 +321,20 @@ else if(headPointer.data === "A Lots Gonna Change"){
     
   else if (headPointer.data === "Shilo"){
     document.getElementById("resizeMessage").style.backgroundColor = "white"; 
+    document.getElementById("reSizeMessageButton").style.backgroundColor = "white";
     document.getElementById("resizeMessage").style.borderColor = "rgb(177, 241, 255)"; 
-    document.getElementById("resizeMessage").style.color = "rgb(25, 102, 137)";  
+    document.getElementById("reSizeMessageButton").style.borderColor = "rgb(177, 241, 255)";
+    document.getElementById("resizeMessage").style.color = "rgb(25, 102, 137)";
+    document.getElementById("reSizeMessageButton").style.color = "rgb(25, 102, 137)";
+    document.getElementById("reSizeMessageButton").onmouseover = function() {
+      document.getElementById("reSizeMessageButton").style.backgroundColor = "rgb(177, 241, 255)";
+    }
+    document.getElementById("reSizeMessageButton").onmouseout = function() {
+      document.getElementById("reSizeMessageButton").style.backgroundColor = "white"; 
+    }
     document.getElementById("title").style.color= "rgb(216,248,255)";
     document.getElementById("NowPlaying").style.color= "rgb(9, 137,166)";
-    document.getElementById("Range").style.background= "white"; // rgb(9, 137,166)
+    document.getElementById("Range").style.background= "white"; 
     document.getElementById("Back").style.color= "rgb(216,248,255)";
     document.getElementById("Up").style.color= "rgb(216,248,255)";
     document.getElementById("Play").style.color= "rgb(216,248,255)";

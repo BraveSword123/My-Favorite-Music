@@ -16,7 +16,7 @@ body{
 }
 
 #resizeMessage{
-  height: 215px; 
+  height: 257px; 
   width: 350px; 
   background-color: #FFFFC4;
   font-size: 20px; 
@@ -24,7 +24,7 @@ body{
   border: 7px solid #D57529; 
   color: #837402; 
   font-family: Forum; 
-  padding-top: 5px;
+  padding-top: 10px;
   padding-left: 5px;
   padding-right: 5px;
   display: none; 
@@ -33,6 +33,22 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);   
 
+}
+
+#reSizeMessageButton{
+  background-color: #FFFFC4;
+  border: 2px solid #D57529;
+  font-family: Forum; 
+  color: #837402;
+  font-size: 17px;
+  margin-top: 10px;
+  padding-left: 25px; 
+  padding-right: 25px;
+  cursor: pointer; 
+}
+
+#reSizeMessageButton:hover{
+  background-color: white;
 }
 
 #JB_Background{
