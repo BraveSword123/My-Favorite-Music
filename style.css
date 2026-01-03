@@ -27,8 +27,12 @@ body{
   padding-top: 5px;
   padding-left: 5px;
   padding-right: 5px;
-  margin: auto;
   display: none; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);   
+
 }
 
 #JB_Background{
